@@ -266,7 +266,7 @@ const Header = () => {
               </div>
             )}
 
-            <div className="text-center my-3">or login with</div>
+            <div className="text-center my-3">Or login with</div>
             <div className="d-flex justify-content-between">
               <Button className="w-100 mx-1 button_facebook">Facebook</Button>
               <Button className="w-100 mx-1 button_google">Google</Button>
