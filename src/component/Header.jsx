@@ -90,7 +90,7 @@ const Header = () => {
                   style={{ width: "18rem", zIndex: 999 }}
                 >
                   <h4 className="mb-1">Hello!</h4>
-                  <p className="mb-3">Access account and Manage Orders</p>
+                  <p className="mb-3">Access Account and Manage Orders</p>
                   <Button
                     variant="danger"
                     className="w-100 mb-3"
