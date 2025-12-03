@@ -144,7 +144,7 @@ body::selection {
 
 @media (max-width: 425px) {
   .navbar {
-    flex-direction: row !important;
+    flex-direction:row !important;
     flex-wrap: wrap !important;
     padding: 0.5rem;
   }
