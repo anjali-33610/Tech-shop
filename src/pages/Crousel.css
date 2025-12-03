@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+.discountprice{
+    color: rgb(102, 102, 105) !important;
+}
+
+.marginButton{
+    margin-left: 12rem !important;
+}
+
+
+@media (max-width:426px){
+    .crouserwidth{
+        width: 250px;
+        margin-bottom: -120px;
+        margin-top: -50px;
+    }
+}
+
+
+.carousel-wrapper {
+    position: relative;
+    overflow: visible; 
+    padding-bottom: 60px; 
+}
+
+
+.carousel-wrapper .slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px !important;
+    z-index: 50;
+}
+
+
+.carousel-wrapper .slick-dots li div.custom-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.5;
+}
+
+
+.carousel-wrapper .slick-dots li.slick-active div.custom-dot {
+    background: #ff0000 !important;
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.carousel-dots {
+  margin: 0;
+  padding: 0;
+}
+
+
+.slick-slide {
+    overflow: visible !important;
+}
+
+.type-bg-text {
+    position: absolute;
+    top: 5%; 
+    left: 30%; 
+    transform: translateX(-50%); 
+    font-size: 20rem; 
+    color: darkgray; 
+    font-weight: bold;
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .type-bg-text {
+        font-size: 12rem;
+    }
+}
+
+.slide-content {
+    position: relative;
+    z-index: 10;
+}
